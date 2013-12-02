@@ -14,5 +14,10 @@
   "dependencies": {
     "q": "~0.9.7",
     "request": "~2.27.0"
-  }
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "lib/requestq.js"
+  ]
 }
