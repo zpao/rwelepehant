@@ -1,6 +1,6 @@
 {
   "name": "rwelephant",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Node API for RWElephant",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,13 @@
   ],
   "author": "Paul O’Shannessy <paul@oshannessy.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zpao/rwelephant.git"
+  },
   "dependencies": {
-    "q": "~0.9.7",
-    "request": "~2.27.0"
+    "q": "^1.0.1",
+    "request": "^2.34.0"
   },
   "files": [
     "README.md",
