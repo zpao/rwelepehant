@@ -2,7 +2,7 @@ var Q = require('q');
 var requestq = require('./lib/requestq');
 
 // The RWE client version that we support
-var CLIENT_VERSION = 4;
+var CLIENT_VERSION = 5;
 
 // get methods
 var API_GET = [
@@ -96,7 +96,7 @@ RWElephant.prototype = {
     }
     else {
       var data = {
-        'client_version': 4,
+        'client_version': CLIENT_VERSION,
         'username': this.username,
         'password': this.password
       };
