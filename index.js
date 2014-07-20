@@ -2,7 +2,7 @@ var Q = require('q');
 var requestq = require('./lib/requestq');
 
 // The RWE client version that we support
-var CLIENT_VERSION = 6;
+var CLIENT_VERSION = 7;
 
 // get methods
 var API_GET = [
